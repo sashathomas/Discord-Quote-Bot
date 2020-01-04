@@ -1,9 +1,10 @@
 const Discord = require("discord.js");
+require('dotenv').config();
 const bot = new Discord.Client();
 
-const token = "NjYyOTI1NjIzNjIyMzY5Mjgy.XhBDoA.Rt3nDT2pQY85aUOOO7Td8hfdTCs";
-
 const PREFIX = "!fsociety";
+
+const token = process.env.token;
 
 const elliot_quotes = [
     "Though she’s a psychologist she’s really bad at reading people but I’m good at reading people. My secret? I look for the worst in them.",
@@ -62,7 +63,7 @@ const darlene_quotes = [
     "Handled. I happen to be really smart, and good at things. Not like you give a shit.",
     "Corporate greed is a trickle down desire that reaches even the bottom of the food chain.",
     "I've had a fucking rough night as well.",
-    "It's cool, dude. We don't have to talk."
+    "It's cool, dude. We don't have to talk.",
     "What's the hurry? She's not going to get any deader.",
     "Don't overthink this.",
     "You've gotta be fucking kidding me.",

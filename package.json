@@ -1,0 +1,14 @@
+{
+  "name": "mr-robot-quotes-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that sends a random quote from the TV show Mr. Robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sasha Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
